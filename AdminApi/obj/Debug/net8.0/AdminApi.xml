@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AdminApi</name>
+    </assembly>
+    <members>
+        <member name="M:AdminApi.Controllers.MenuController.GetSidebarMenu(System.Int32)">
+            <summary>
+            App Side bar menus
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.MenuController.GetAllMenu(System.Int32)">
+            <summary>
+            Filter menus by menuGroupId
+            </summary>      
+        </member>
+        <member name="M:AdminApi.Controllers.MenuController.MenuAssign(AdminApi.ViewModels.Menu.MenuOperation)">
+            <summary>
+            Assign App Menu
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.MenuController.GetMenuList">
+            <summary>
+            Get App Menu List
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.MenuController.GetParentMenuList">
+            <summary>
+            Get App Parent Menu List
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.MenuController.GetSingleMenu(System.Int32)">
+            <summary>
+            Get Single Menu by ID
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.MenuController.DeleteSingleMenu(System.Int32)">
+            <summary>
+            Delete Single Menu by ID
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.MenuController.CreateMenu(AdminApi.Models.Menu.AppMenu)">
+            <summary>
+            Create App Menu
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.MenuController.UpdateMenu(AdminApi.Models.Menu.AppMenu)">
+            <summary>
+            Update App Menu
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.MenuController.GetMenuGroupList">
+            <summary>
+            Get Menu Group List
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.MenuController.GetSingleMenuGroup(System.Int32)">
+            <summary>
+            Get Single Menu Group by ID
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.MenuController.DeleteSingleMenuGroup(System.Int32)">
+            <summary>
+            Delete Single Menu Group by ID
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.MenuController.CreateMenuGroup(AdminApi.Models.Menu.MenuGroup)">
+            <summary>
+            Create Menu Group
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.MenuController.UpdateMenuGroup(AdminApi.Models.Menu.MenuGroup)">
+            <summary>
+            Update Menu Group
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.MenuController.GetMenuGroupWiseMenuMappingList">
+            <summary>
+            Get Menu Group wise Menu Mapping List
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.GetLoginInfo(AdminApi.ViewModels.User.UserInfo)">
+            <summary>
+            Get Log in Detail
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.GetUserInfoForForgetPassword(System.String)">
+            <summary>
+            Get User Info for Forget password option
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.StudentRegistration(AdminApi.Models.User.Users)">
+            <summary>
+            Student Registration
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.CreateLoginHistory(AdminApi.Models.User.LogHistory)">
+            <summary>
+            Create Log History after login
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.UpdateLoginHistory(System.String)">
+            <summary>
+            Update Login History
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.GetLogInSummaryByDate(System.Int32)">
+            <summary>
+            Get date wise Login summary
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.GetLogInSummaryByMonth(System.Int32)">
+            <summary>
+            Get month wise Login summary
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.GetLogInSummaryByYear(System.Int32)">
+            <summary>
+            Get month wise Login summary
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.GetBrowserCount(System.Int32)">
+            <summary>
+            Get Browser Count
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.GetRoleWiseUser">
+            <summary>
+            Get Role wise User Count
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.GetUserRoleList">
+            <summary>
+            Get Role List
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.GetSingleRole(System.Int32)">
+            <summary>
+            Get Single Role by ID
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.DeleteSingleRole(System.Int32)">
+            <summary>
+            Delete Single Role by ID
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.CreateUserRole(AdminApi.Models.User.UserRole)">
+            <summary>
+            Create User Role
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.UpdateUserRole(AdminApi.Models.User.UserRole)">
+            <summary>
+            Update User Role
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.GetUserList">
+            <summary>
+            Get User List
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.GetSingleUser(System.Int32)">
+            <summary>
+            Get Single User by ID
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.GetSingleUserByHash(System.String)">
+            <summary>
+            Get Single User by hash
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.DeleteSingleUser(System.Int32)">
+            <summary>
+            Delete Single User by ID
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.CreateUser(AdminApi.Models.User.Users)">
+            <summary>
+            Create User
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.UpdateUser(AdminApi.Models.User.Users)">
+            <summary>
+            Update User
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.UpdateUserProfile(AdminApi.ViewModels.User.UserInfo)">
+            <summary>
+            Update User Profile
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.ChangeUserPassword(AdminApi.ViewModels.User.UserInfo)">
+            <summary>
+            Change User Password
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.UserStatus">
+            <summary>
+            Dashboard User Status
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.GetBrowseList(System.Int32)">
+            <summary>
+            Get Browsing Log
+            </summary>
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.GetNotificationList(System.Int32)">
+            <summary>
+            Get Notification List
+            </summary>    
+        </member>
+        <member name="M:AdminApi.Controllers.UsersController.Upload">
+            <summary>
+            Profile picture upload
+            </summary>
+        </member>
+        <member name="T:AdminApi.Migrations.initial">
+            <inheritdoc />
+        </member>
+        <member name="M:AdminApi.Migrations.initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AdminApi.Migrations.initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AdminApi.Migrations.initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.SendWelcomeMail(AdminApi.Models.Helper.WelcomeRequest)">
+            <summary>
+            Sent Welcome Email
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.SendPasswordMail(AdminApi.Models.Helper.ForgetPassword)">
+            <summary>
+            Sent Password Email
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.GetSiteSettings">
+            <summary>
+            Get Site Settings
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.UpdateGeneralSetting(AdminApi.Models.Others.SiteSettings)">
+            <summary>
+            Update General Settings
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.UpdateEmailSetting(AdminApi.Models.Others.SiteSettings)">
+            <summary>
+            Update Email Settings
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.UpdateColorSetting(AdminApi.Models.Others.SiteSettings)">
+            <summary>
+            Update Color Settings
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.UpdateLandingSetting(AdminApi.Models.Others.SiteSettings)">
+            <summary>
+            Update Landing Settings
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.UpdateEmailTextSetting(AdminApi.Models.Others.SiteSettings)">
+            <summary>
+            Update Email Text Settings
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.UploadLogo">
+            <summary>
+            Site Logo upload
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.UploadFavicon">
+            <summary>
+            Site Favicon upload
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.GetFaqList">
+            <summary>
+            Get FAQ List
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.GetSingleFaq(System.Int32)">
+            <summary>
+            Get Single FAQ
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.DeleteFaq(System.Int32)">
+            <summary>
+            Delete FAQ by Id
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.CreateFaq(AdminApi.Models.Others.Faq)">
+            <summary>
+            Create Faq
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.UpdateFaq(AdminApi.Models.Others.Faq)">
+            <summary>
+            Update Faq
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.GetContacts">
+            <summary>
+            Get Contacts
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.CreateContacts(AdminApi.Models.Others.Contacts)">
+            <summary>
+            Create Contact-us
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.GetErrorLogList">
+            <summary>
+            Get Error Log List
+            </summary>
+        </member>
+        <member name="M:QuizplusApi.Controllers.SettingsController.CreateErrorLog(AdminApi.Models.Others.ErrorLog)">
+            <summary>
+            Create Error Log
+            </summary>
+        </member>
+    </members>
+</doc>
